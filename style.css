@@ -116,8 +116,4 @@ body{
     opacity: 0.5;
 }
 
-.main .view:hover{
-    position: absolute;
-    left: 170px;
-    top: 160px;
-}
+
