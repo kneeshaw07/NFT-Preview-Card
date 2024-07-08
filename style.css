@@ -1,0 +1,118 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main{
+    position: relative;
+    width: 320px;
+    height: 540px;
+    border: 1px;
+    border-radius: 15px;
+    padding: 30px ;
+    font-family: Outfit;
+    left: 700px;
+    top: 40px;
+    padding: 30px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.main .pic{
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    border: 1px;
+    border-radius: 15px;
+    background-image: url(image-equilibrium.jpg);
+    background-size: cover;
+}
+
+
+.main .eq{
+    position: absolute;
+    top: 350px;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.main .para{
+    position: absolute;
+    top: 400px;
+}
+
+.main .para p{
+    margin: 0px;
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+
+.main .eth{
+    position: absolute;
+    top: 470px;
+    left: 46px;
+    color: hsl(178, 100%, 50%);
+}
+
+.main .day{
+    position: absolute;
+    top: 470px;
+    left: 280px;
+    color: hsl(215, 51%, 70%);
+}
+
+.main .ethimg{
+    position: absolute;
+    top: 470px;
+}
+
+.main .clock{
+    position: absolute;
+    top: 472px;
+    left: 258px;
+}
+
+.main .line{
+    position: absolute;
+    width: 320px;
+    border: 1px solid hsl(215, 32%, 27%);
+    top: 505px;
+}
+
+.main .pic2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    top: 525px;
+    background-image: url(image-avatar.png);
+    background-size: cover;
+}
+
+.profile h4{
+    top: 530px;
+    left: 75px;
+    position: absolute;
+    margin: 0px;
+    font-weight: 300;
+    color: white;
+}
+
+.main .attribution{
+    position: absolute;
+    top: 575px;
+    font-size: 15px;
+    right: 15px;
+    color: white;
+}
+
+.main .attribution a{
+    color: white;
+}
+
+.main .pic:hover{
+    color: hsl(178, 100%, 50%);
+    opacity: 0.5;
+}
+
