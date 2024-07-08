@@ -111,9 +111,23 @@ body{
     color: white;
 }
 
-.main .pic:hover{
+.main .a{
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    border: 1px;
+    border-radius: 15px;
+    
+}
+
+.eq:hover{
     color: hsl(178, 100%, 50%);
+}
+
+.a:hover{
+    background-color: hsl(178, 100%, 50%);
     opacity: 0.5;
+    
 }
 
 
